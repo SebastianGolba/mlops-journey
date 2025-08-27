@@ -1,0 +1,17 @@
+# Week 1 Day 1 — Setup + Basics
+Date: 2025-08-27
+
+What I did
+- Installed Ubuntu (WSL2/VM/EC2).
+- Configured Git (name/email, default branch, editor).
+- Created an SSH key and added it to GitHub.
+- Verified SSH connection.
+
+Commands I practiced
+pwd (where am I), ls / ls -l (list), cd (change dir), mkdir (make dir),
+touch (new file), echo (write), cat (show), mv (move/rename), rm (remove), tree (dir tree)
+
+Gotchas
+- Password input showed nothing on Ubuntu setup → normal; typed and pressed Enter twice.
+- First SSH to GitHub asked to trust a fingerprint → normal; typed "yes" and it worked.
+- wsl --install error (HCS_E_SERVICE_NOT_AVAILABLE) → reboot fixed it; confirmed with wsl --status.
