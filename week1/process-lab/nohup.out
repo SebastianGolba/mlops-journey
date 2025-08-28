@@ -1,0 +1,2 @@
+nohup: ignoring input
+./trap_demo.sh: 1: set: Illegal option -o pipefail
